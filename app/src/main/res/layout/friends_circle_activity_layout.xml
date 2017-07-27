@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+    <com.android.lahuhula.widget.PullToRefreshListView
+        android:id="@+id/friends_circle_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"
+        android:background="#fff"
+        android:cacheColorHint="#00000000"
+        android:dividerHeight="2dp" />
+    <LinearLayout
+        android:id="@+id/friends_circle_comment_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:background="#80dddddd"
+        android:visibility="gone">
+        <EditText
+            android:id="@+id/comment_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:hint="@string/friend_circle_comment_label"
+            android:selectAllOnFocus="true"
+            android:background="@android:color/white"/>
+        <Button
+            android:id="@+id/friends_circle_comment_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:gravity="center"
+            android:text="@string/send"
+            android:textColor="@android:color/white"
+            android:background="@color/app_theme_color"/>
+    </LinearLayout>
+</LinearLayout>

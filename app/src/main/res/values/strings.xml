@@ -1,0 +1,50 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">拉壶壶拉</string>
+    <string name="action_settings">设置</string>
+    <string name="action_send">发送</string>
+    <string name="section_format">当前是第%1$d页</string>
+    <string name="action_now">立即体验</string>
+    <string name="login">登录</string>
+    <string name="user_login">用户登录</string>
+    <string name="login_account_hint">请输入用户名（手机号）</string>
+    <string name="login_password_hint">请输入密码</string>
+    <string name="login_register">手机注册</string>
+    <string name="login_retrieve_password">找回密码</string>
+    <string name="entry_point_huhu">壶壶</string>
+    <string name="entry_point_friends">壶壶圈</string>
+    <string name="entry_point_huhu_data">壶壶数据</string>
+    <string name="entry_point_real_people_product">真人真品</string>
+    <string name="entry_point_me">我</string>
+    <string name="entry_friends_circle_label">壶壶圈</string>
+    <string name="friend_circle_like_label">点赞</string>
+    <string name="friend_circle_comment_label">评论</string>
+    <string name="send">发表</string>
+    <string name="one_village">一村</string>
+    <string name="one_product">一品</string>
+    <string name="display_traffic">显示交通情况</string>
+    <string name="huhu_help_station">帮帮站</string>
+    <string name="function_not_ready">该功能暂未上线，敬请期待</string>
+    <string name="toast_max_image_is_added">您最多只能选择<xliff:g id="VALUE">%1$d</xliff:g>张照片</string>
+    <string name="buy_info_comfirm">订单确认</string>
+    <string name="buy_info_total_price">总价：</string>
+    <string name="buy_info_receiver_name">"收货人： <xliff:g id="name">%1$s</xliff:g>"</string>
+    <string name="receive_address_manager">管理收货地址</string>
+    <string name="waiting_payment">待付款</string>
+    <string name="waiting_for_delivery">待发货</string>
+    <string name="waiting_receive_goods">待收货</string>
+    <string name="received_goods">已收货</string>
+    <string name="refund">退款/售后</string>
+    <string name="personal_info">个人资料</string>
+    <string name="address_manager">管理收货地址</string>
+    <string name="add_new_address">添加新地址</string>
+    <string name="about_me">关于我们</string>
+    <string name="about_me_company_name">壶壶(北京)科技有限公司</string>
+    <string name="about_me_company_website">www.lhuhul.com</string>
+    <string name="about_me_company_description">"　　壶壶公司是专注于农村电商，服务农民，服务社会的专业化公司。
+　　拉壶壶拉是搭建农民资源和消费者需求的C2C+020电商平台，服务农民，服务消费者。
+　　农民：服务农民，农民进入平台不收取任何费用，让农民把自己的资源发布到拉壶壶拉。
+　　消费者：所有消费者买到的资源都是农民亲手培育的。
+　　平台宗旨：诚信、互信。
+　　拉壶壶拉要按照“立壶为志、服务于民”原则，创建国内一流的农村电商平台。"</string>
+    <string name="about_me_copyright">Copyright @2016-2017</string>
+</resources>

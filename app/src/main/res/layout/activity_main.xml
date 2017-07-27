@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.android.lahuhula.activity.MainActivity">
+
+    <ImageView
+        android:id="@+id/logo_content_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/lahuhula_logo"/>
+
+    <LinearLayout
+        android:id="@+id/main_content_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone">
+        <RelativeLayout
+            android:id="@+id/fragment_container"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1.0">
+        </RelativeLayout>
+        <include layout="@layout/entry_point_layout" />
+    </LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_marginRight="@dimen/fab_margin"
+        android:layout_marginBottom="65dip"
+        app:backgroundTint="@android:color/holo_orange_light"
+        app:srcCompat="@drawable/login_icon" />
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="20dip"
+    android:paddingRight="20dip"
+    android:paddingBottom="20dip"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:layout_marginBottom="20dip"
+        android:orientation="horizontal" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/user_login"
+            android:textAppearance="?android:textAppearanceLarge" />
+        <ImageView
+            android:id="@+id/login_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/login_cancel" />
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/login_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:hint="@string/login_account_hint"/>
+    <EditText
+        android:id="@+id/login_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:hint="@string/login_password_hint"/>
+    <Button
+        android:id="@+id/login_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dip"
+        android:background="@color/app_theme_color"
+        android:text="@string/login"
+        android:textAppearance="?android:textAppearanceLarge"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip">
+        <TextView
+            android:id="@+id/phone_register_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:text="@string/login_register"/>
+        <TextView
+            android:id="@+id/forget_password_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:text="@string/login_retrieve_password"/>
+    </RelativeLayout>
+</LinearLayout>

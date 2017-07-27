@@ -1,0 +1,4 @@
+<resources>
+    <item type="id" name="add_image_btn"/>
+    <item type="id" name="circle_add_image"/>
+</resources>
